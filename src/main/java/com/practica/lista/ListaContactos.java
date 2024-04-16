@@ -83,7 +83,6 @@ public class ListaContactos {
 			else
 				npAnt.setSiguiente(npNuevo);
 		}
-
 		if(ant!=null) {
 			nuevo.setSiguiente(aux);
 			ant.setSiguiente(nuevo);
@@ -93,7 +92,7 @@ public class ListaContactos {
 		}
 		this.size++;
 	}
-	
+
 	public int personasEnCoordenadas () {
 		NodoPosicion aux = this.lista.getListaCoordenadas();
 		if(aux==null)
