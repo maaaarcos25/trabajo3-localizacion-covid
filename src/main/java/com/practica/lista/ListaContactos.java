@@ -92,7 +92,6 @@ public class ListaContactos {
 		}
 		this.size++;
 	}
-
 	public int personasEnCoordenadas () {
 		NodoPosicion aux = this.lista.getListaCoordenadas();
 		if(aux==null)
