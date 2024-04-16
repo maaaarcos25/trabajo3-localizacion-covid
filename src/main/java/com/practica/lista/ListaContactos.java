@@ -105,7 +105,7 @@ public class ListaContactos {
 		}
 		return false;
 	}
-	
+	/*
 	private void insertarPersona (String documento, NodoPersonas nodo) {
 		NodoPersonas aux = nodo, nuevo = new NodoPersonas(documento, null);
 		while(aux.getSiguiente()!=null) {				
@@ -127,6 +127,8 @@ public class ListaContactos {
 			return cont;
 		}
 	}
+
+	 */
 	
 	public int tamanioLista () {
 		return this.size;
